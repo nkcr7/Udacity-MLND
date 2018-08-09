@@ -1,2 +1,91 @@
 # Udacity-MLND
 Udacity Machine Learning (Advanced) Nano Degree
+
+This repository contains six projects. 
+
+- Titanic survival prediction
+  - Goal: using supervised machine learning and creating a classifier to predict Titanic survival
+  - Main steps:
+    - Exploring data
+    - Selecting features
+    - Making naive decision trees to predict survival
+- Boston Housing prediction
+  - Goal: using supervised machine learning and  creating a regressor to predict Boston housing price
+  - Main steps:
+    - Exploring and analyzing data
+      - Calculating statistics
+      - data visualization
+      - Feature observation and selection
+      - Data splitting and shuffling
+    - Defining a performance metric for the learning problem
+    - Creating a bunch of decision tree models and comparing the performance
+    - Combining grid search and cross validation to search the optimal hyperparameters of the model
+    - Using the optimal model to predict the price of samples in test dataset
+- Finding donors
+  - Goal: using supervised machine learning and creating a classifier to predict if one's income is greater than $50,000
+  - Main steps:
+    - Exploring data
+      - Calculating statistics
+      - Visualizing data
+    - Preprocessing data
+      -  Splitting features/label
+      - Converting skewed features
+      - Normalizing features
+      - Shuffling and splitting training/validation dataset
+    - Defining performance metrics
+      - Accuracy
+      - Precision
+      - Recall
+      - F-score
+    - Creating a naive classifier as a baseline
+    - Creating several classifiers using supervised machine learning
+      - Logistic regression
+      - Decision tree
+      - SVM
+    - Training and evaluating the models
+    - Choosing the optimal model
+    - Fine-tuning hyperparameters of the optimal model using grid search and cross validation
+    - Predicting on the test dataset
+- Creating customer segments
+  - Goal: using unsupervised machine learning to make customer segments
+  - Main steps:
+    - Analyzing data
+      - Visualizing and analyzing features
+      - Selecting features
+    - Preprocessing data
+      - Scaling features
+      - Removing outliers
+    - Transforming features
+      - PCA
+      - Reducing feature dimensions
+    - Clustering data
+      - K-Means
+      - Gaussian mixed model
+    - Visualizing Clusters
+    - Predicting new data
+- Smartcab
+  - Goal: using reinforcement learning to teach a taxi driving across a city
+  - Main steps:
+    - Defining two metrics: safety rating and reliability rating
+    - Understanding the environment
+    - Implementing a baseline agent
+    - Implementing a Q-learning agent
+      - Selecting states and defining state space
+      - Creating Q-value table
+      - Implementing the update formula of epsilon-greedy Q-learning
+    - Training the agent and tuning hyperparameters
+    - Analyzing the optimal policy
+- Image classification
+  - Goal: Using deep learning to classify the CIFAR-10 dataset
+  - Main steps:
+    - Downloading dataset
+    - Exploring data
+    - Preprocessing data
+      - Normalization
+      - One-hot encoding
+      - Shuffling
+      - Saving the preprocessed data
+    - Constructing a convolutional neural network in Tensorflow
+    - Tuning hyperparameters and training the network on a part of CIFAR-10 dataset
+    - Training on the entire dataset
+    - Testing the model on testing dataset
